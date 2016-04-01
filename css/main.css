@@ -76,6 +76,10 @@ div {
   padding: 3rem 0;
 }
 
+.expand {
+  max-height: 0;
+}
+
 .circle {
   height: 100px;
   top: calc(50% - 50px);
@@ -84,6 +88,24 @@ div {
   background-color: orange;
   border-radius: 50%;
 }
+
+.circle-bounce {
+  animation: bounce 1s ease;
+}
+
+@keyframes bounce {
+
+  0% { transform: translate (0, 0); }
+
+  25% { transform: translate (-25px, 20px); }
+
+  50% { transform: translate (-50px, 0); }
+
+  75% { transform: translate (-75px, -20px); }
+
+  100% { transform: translate (-100px, 0); }
+}
+
 
 .list {
   bottom: 1em;
@@ -125,21 +147,4 @@ div {
   0% { transform: translate(0,0); }
 
   100% { transform: translate(-150px, 0); }
-}
-
-.circle-bounce {
-  animation: bounce 1s ease;
-}
-
-@keyframes bounce {
-
-  0% { transform: translate (0, 0); }
-
-  25% { transform: translate (-25px, 20px); }
-
-  50% { transform: translate (-50px, 0); }
-
-  75% { transform: translate (-75px, -20px); }
-
-  100% { transform: translate (-100px, 0); }
 }
