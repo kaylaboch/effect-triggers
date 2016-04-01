@@ -10,7 +10,7 @@ $btn.on('click', function (e) {
 });
 
 $move.on('click', function (e) {
-  $('diamond').toggleClass('diamond-move');
+  $('.diamond').toggleClass('diamond-move');
 });
 
 $bounce.on('click', function (e) {
