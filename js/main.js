@@ -27,3 +27,5 @@ $append.on('click', function (e) {
   $list.append($li);
   $li.addClass('words');
 });
+
+$('.circle').removeClass('circle-bounce');
