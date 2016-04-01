@@ -30,4 +30,4 @@ $append.on('click', function (e) {
 
 $('.circle').on('animationed', function (e) {
   $('.circle').removeClass('circle-bounce');
-)};
+});
