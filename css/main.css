@@ -53,6 +53,10 @@ div {
   transition: all 0.75s ease;
 }
 
+.diamon-move {
+  right: 50px;
+}
+
 .panel {
   max-height: 10em;
   overflow: hidden;
