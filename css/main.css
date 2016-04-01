@@ -95,15 +95,15 @@ div {
 
 @keyframes bounce {
 
-  0% { transform: translate (0, 0); }
+  0% { transform: translate(0, 0); }
 
-  25% { transform: translate (-25px, 20px); }
+  25% { transform: translate(-25px, 20px); }
 
-  50% { transform: translate (-50px, 0); }
+  50% { transform: translate(-50px, 0); }
 
-  75% { transform: translate (-75px, -20px); }
+  75% { transform: translate(-75px, -20px); }
 
-  100% { transform: translate (-100px, 0); }
+  100% { transform: translate(-100px, 0); }
 }
 
 
