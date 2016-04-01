@@ -30,5 +30,5 @@ $append.on('click', function (e) {
 });
 
 $('.circle').on('animationend', function (e) {
-  $('.circle').removeClass('circle-bounce');
+  $('.circle').addClass('circle-bounce');
 });
