@@ -100,6 +100,10 @@ div {
   color: mediumpurple;
 }
 
+.circle-bounce {
+  animation: bounce 1s ease;
+}
+
 @keyframes bounce {
 
   0% { transform: translate (0, 0); }
@@ -111,5 +115,5 @@ div {
   75% { transform: translate (-75px, -20px); }
 
   100% { transform: translate (-100px, 0); }
-  
+
 }
