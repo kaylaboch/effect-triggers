@@ -14,7 +14,7 @@ $move.on('click', function (e) {
 });
 
 $bounce.on('click', function (e) {
-  $('circle').addClass('circle-bounce');
+  $('.circle').addClass('circle-bounce');
 });
 
 $collapse.on('click', function (e) {
