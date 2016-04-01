@@ -99,3 +99,10 @@ div {
 
   color: mediumpurple;
 }
+
+@keyframes bounce {
+
+  0% { transform: translate (0, 0); }
+  25% { transform: translate (-25px, 20px); }
+  
+}
