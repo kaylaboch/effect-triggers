@@ -29,6 +29,6 @@ $append.on('click', function (e) {
   $li.addClass('words');
 });
 
-$('.circle').on('.animationend', function (e) {
+$('.circle').on('animationend', function (e) {
   $('.circle').removeClass('circle-bounce');
 });
