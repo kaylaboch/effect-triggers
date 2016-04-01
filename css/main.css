@@ -60,6 +60,7 @@ div {
 
   color: darkgoldenrod;
   text-align: center;
+  transition: 0.5s ease;
 }
 
 .panel h2 {
