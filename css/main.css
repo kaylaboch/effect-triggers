@@ -106,6 +106,7 @@ div {
   overflow: hidden;
 
   color: mediumpurple;
+  animation: grow 0.5s forwards;
 }
 
 @keyframes transition {
