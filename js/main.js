@@ -8,3 +8,15 @@ var $append = $('.btn-append');
 $btn.on('click', function (e) {
   $('.box').toggleClass('box-show');
 });
+
+$move.on('click', function (e) {
+  $('diamond').toggleClass('diamond-move');
+});
+
+$bounce.on('click', function (e) {
+  $('circle').addClass('circle-bounce');
+});
+
+$collapse.on('click', function (e) {
+  $('.panel').toggleClass('expand');
+})
