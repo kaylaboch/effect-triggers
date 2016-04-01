@@ -23,6 +23,7 @@ $collapse.on('click', function (e) {
 
 $append.on('click', function (e) {
   var $li = $('<li>');
+  
   $li.html('things');
   $list.append($li);
   $li.addClass('words');
