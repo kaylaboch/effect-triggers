@@ -19,4 +19,11 @@ $bounce.on('click', function (e) {
 
 $collapse.on('click', function (e) {
   $('.panel').toggleClass('expand');
-})
+});
+
+$append.on('click', function (e) {
+  var $li = $('<li>');
+  $li.html('things');
+  $list.append($li);
+  $li.addClass('words');
+});
